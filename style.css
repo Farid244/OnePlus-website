@@ -1,0 +1,290 @@
+*{
+    margin:0%;
+    padding:0%;
+    border: border-box;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #828282; 
+    display:flex;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    
+    
+}
+.logo{
+    height: 50px;
+    width: 103px;
+    margin-left: 20px;
+}
+.logo img{
+    height: 50px;
+    width: 103px;
+}
+.menu{
+    color:#000000;
+    background-color: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.menu-left{
+    display:flex;
+    margin-right: 75px;
+    margin-left: 15px;
+   
+
+}
+.menu-left p{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 250;
+    border-bottom: 1px solid transparent;
+}
+.menu-left p:hover{
+    border-bottom:1px solid rgb(241, 74, 74);
+    cursor:pointer;
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 2px;
+}
+.menu-right{
+    display:flex;
+    
+}
+.menu-right p{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 250;
+    border-bottom: 1px solid transparent;
+}
+.menu-right p:hover{
+    border-bottom:1px solid rgb(241, 74, 74);
+    cursor:pointer;
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 2px;
+    transition: all 0.25s ease-in;
+}
+.nav-icons{
+    margin-top: 19px;
+    margin-right: 0px;
+    
+}
+.nav-icons i{
+    margin-left: 15px;
+    padding-right: 10px;
+    
+}
+
+
+/** head section**/
+
+.head{
+    height: 163px;
+    width:100%;
+    background-color:#ffffff;
+    border-bottom: 1px solid  rgb(214, 210, 210) ;
+    padding-top: 35px;
+    display:flex;
+}
+.head-img{
+    height: 128px;
+    width: 128px;
+    color:#828282;
+    margin-left: 20px;
+    
+}
+.head-img:hover{
+    cursor: pointer;
+}
+.head-img img{
+
+    height: 56px;
+    width: 56px;
+    display:flex;  
+    margin-bottom: 20px; 
+}
+span{
+    color:#000000;
+    padding: 0px 14px;
+    margin: 15px 0px 0px;
+    height: 21px;
+    width: 43px;
+}
+
+/**  content section **/
+
+.content{
+    height: 1860px;
+    width:100%;
+    display:flex;
+    border-bottom: 1px solid rgb(214, 210, 210);
+}
+
+.left-content{
+    height: 1795px;
+    width: 353px;
+    color:#828282;
+    border-right: 1px solid  rgb(214, 210, 210) ;
+    padding:32px 40px 32px 64px;
+
+}
+.side-txt1{
+    height: 93px;
+    width: 248px;
+    color:#828282;
+}
+.side-txt2{
+    height: 126px;
+    width: 248px;
+    color:#828282;
+}
+.series{
+    height: 27px;
+    width: 248px;
+    color:#000000f2;
+    padding-top: 0px 0px 4px;
+    font-size: larger;
+    font-weight: 500;
+    
+}
+.series-content{
+    height: 54px;
+    width: 248px;
+    
+
+}
+.series-content1{
+    height: 21px;
+    width: 248px;
+    color:#828282;
+    margin: 12px 0px 0px;
+
+}
+input{
+    border:2px solid transparent;
+}
+ input:hover{
+    cursor: pointer;
+    border-color: #f50514;
+}
+.series-content2{
+    height: 21px;
+    width: 248px;
+    color:#828282;
+    margin: 12px 0px 0px;
+}
+.side{
+    padding-right: 0px;
+
+}
+.red{
+    margin-left: 4px;
+    font-size: 11px;
+    color:#f50514;
+    padding:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.right-content{
+    height: 1860px;
+    width: 995px;
+    color:#828282;
+    padding:14px 64px 5px 20px;
+    
+
+    
+}
+.main{
+    height: 1777px;
+    width: 911px;
+    color:#828282;
+    
+    display:grid;
+    grid-template-columns:auto auto auto;
+    
+}
+.box{
+    height: 400px;
+    width: 291px;
+    
+}
+.box:hover{
+    cursor:pointer;
+}
+.box img{
+    height: 265px;
+    width: 265px;
+    margin: 30px 30px 5px 30px;
+    padding: 13px;
+}
+ .bx{
+    height: 29px;
+    width: 291px;
+    color:#000000f2;
+    font-size: 23px;
+    text-align: center;
+    padding-left: 3px;
+    font-weight: 520;
+    padding-bottom:1px ;
+}
+.range{
+    color:#000000f2;
+    
+    text-align: center;
+    padding-left: 3px;
+    font-weight: 520;
+}
+
+/**footer**/
+
+
+
+footer{
+    height: 568px;
+    width:100%;
+    color:#828282;
+    background-color: #000000;
+    
+    
+}
+.footer-nav{
+    height: 428px;
+    width: 1221px;
+    padding: 56px;
+    display:flex;
+    
+}
+.foot-content{
+    height: 52px;
+    width: 240px;
+    color:#fffffff2;
+    font-weight: 500;
+    
+    
+}
+.list{
+    height: 264px;
+    width: 244px;
+    color:#ffffff8c;
+    font-size: 14px;
+    
+}
+li{
+    padding: 8px 0px;
+    list-style-type: none;
+}
+/** container section**/
